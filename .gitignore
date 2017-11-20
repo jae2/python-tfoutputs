@@ -1,0 +1,12 @@
+build/
+dist/
+venv/
+venv*/
+.cache/
+.idea/
+*.egg-info/
+*.pyc
+.tox/
+test/fixtures/vcr_cassettes/
+testintegration.py
+__pycache__/
