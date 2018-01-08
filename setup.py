@@ -3,12 +3,12 @@ from setuptools import find_packages
 
 
 setup(name='tfoutputs',
-version='0.0.1',
-description='A tool to get your terraform outputs in your python code',
+version='0.0.3',
+description='A library to get your terraform outputs in your python code',
 license='MIT',
 url='https://github.com/jae2/python-tfoutputs',
-long_description="A tool to get your terraform outputs in your python code'",
-install_requires=[],
+long_description="A library to get your terraform outputs in your python code'",
+install_requires=['boto3'],
 packages=find_packages(exclude=['contrib', 'docs', 'test*','venv*','build','dist','.cache','fixtures','.cache']),
 author_email='admin@jaetech.org',
 author='James Edwards',
