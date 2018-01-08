@@ -50,7 +50,7 @@ class StateConfigurator(object):
         except AttributeError:
             print("Failed to load backend {0}".format(backend))
             raise
-        except ModuleNotFoundError:
+        except ImportError:
             print("Failed to load backend {0}".format(backend))
             raise
 
